@@ -11,7 +11,6 @@ control_c()
 }
 trap control_c SIGINT
 sudo apt-get update -y
-sudo apt-get upgrade -y
 sudo apt-get -y install wget curl build-essential clang 
 sudo apt-get -y install bison openssl zlib1g
 sudo apt-get -y install libxslt1.1 libssl-dev libxslt1-dev make
