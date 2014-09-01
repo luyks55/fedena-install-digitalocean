@@ -27,7 +27,7 @@ sudo apt-get -y install apache2
 sudo apt-get -y install libmysqlclient-dev  mysql-server mysql-client
 echo
 read  -p "Please tell your root password,it is required for fedena installation" password
-curl https://raw.github.com/wayneeseguin/rvm/master/binscripts/rvm-installer | bash -s stable 
+curl -L https://get.rvm.io | bash -s stable 
 echo 'source ~/.bashrc' >> ~/.bash_login
 source ~/.bash_login
 rvm install ruby-1.8.7-p371
